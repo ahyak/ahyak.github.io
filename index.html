@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Matching Card Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Home Page -->
+    <div id="intro-page">
+      <h1 id="title" class="h1-responsive">Flower Power</h1>
+      <div class="container">
+        <form action="index.html" method="post">
+          <div class="form-group row">
+            <div class="col-sm-2">
+            </div>
+            <label for="inputplayer1" class="col-sm-2 col-form-label">Player One:</label>
+            <div class="col-sm-2">
+              <input type="text" class="form-control" id="inputplayername" name="player1name" value="">
+            </div>
+            <label for="inputplayer2" class="col-md-2 col-form-label">Player Two:</label>
+            <div class="col-sm-2">
+              <input type="text" class="form-control" id="inputplayername" name="player2name" value="">
+            </div>
+            <div class="col-sm-2">
+            </div>
+          </div>
+        </form>
+      </div>
+      <button type="button" id="start-game" class="btn btn-default">Start Game!</button>
+    </div>
+    <div id="main" class="hidden">
+      <div id="timer" class="side"></div>
+      <div id="scoreboard" class="side"></div>
+      <div id="board"></div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h1 class="modal-title" id="exampleModalLongTitle">Congratulations 🎉</h1>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-default" data-dismiss="modal" id="restart-game">Reset</button>
+        <button type="submit" class="btn btn-default" data-dismiss="modal" id="play-again">Play again??</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
