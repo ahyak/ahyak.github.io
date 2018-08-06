@@ -1,0 +1,171 @@
+html,
+body{
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  margin: 0;
+  /*margin: auto;*/
+  height: 100%;
+  background: url("../flowers/flowerbkgd.png")no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  /*background-color: #F8F8FF;*/
+  }
+
+
+.card {
+  width: 175px;
+  height: 250px;
+  background: url('../flowers/flowersideup.png');
+  border-radius: 7px;
+  margin-right: 10px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.card img {
+  display: none;
+  /*opacity: 0;*/
+}
+
+.backside {
+  width: 175px;
+  height: 250px;
+  border-radius: 7px;
+  margin-right: 10px;
+  margin-top: 30px;
+  display: inline-block;
+  background: #efdcf1;
+  /*background: #F8F8FF;*/
+  /*border: 2px solid #efdcf1;*/
+  /*opacity: 1;*/
+}
+.backside img {
+  display: initial;
+  /*opacity: initial;*/
+}
+
+img {
+  width: 175px;
+  height: 250px;
+}
+
+/*.timer{
+  width: 100px;
+  height:100px;*/
+/*
+.scoreboard {
+  width: 200px;
+  height:200px;
+  float:right;
+  margin: auto;
+}*/
+
+.matched {
+  opacity: 0.5;
+}
+
+label {
+  color: #d02b3d;
+  text-align: right;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 18px;
+}
+
+#inputplayername {
+  border-color: #f0a5af;
+}
+
+#title {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #b280b1;
+  margin-top: 0;
+  padding-top: 150px;
+  margin-bottom: 90px;
+}
+
+.side {
+  display: inline-block;
+  height: 49px;
+}
+
+#timer {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  color: #d02b3d;
+  /*text-align: right;*/
+  margin-top: 10px;
+  /*position: absolute;*/
+  width: 290px;
+  float:right;
+}
+
+#scoreboard {
+  /*width: 100%;*/
+  /*height: 100%;*/
+  float:left;
+  width:500px;
+  /*margin-left: 50px;*/
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #d02b3d;
+
+}
+#board {
+  /*margin-top: 10px;*/
+  width: 100%;
+  height:100%;
+  display: inline-block;
+  background-color: #F8F8FF;
+}
+
+/*button {
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: white;
+  background-color: #fde5fa;
+  padding: 8px 45px;
+
+}*/
+button.btn.btn-default {
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: white;
+  border-color: #d02b3d;
+  color: #d02b3d;
+  padding: 8px 45px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+button.btn.btn-default:hover {
+  background-color: #f0a5af ;
+}
+
+button#start-game {
+  margin: 50px;
+}
+/*button#start-game:hover {
+  background-color: #f0a5af ;
+
+}*/
+
+#start-game {
+  font-size: 20px;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+  /*color: #d02b3d;*/
+}
+
+h1.players {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 49px;
+
+}
+
+#myModal {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #d02b3d;
+  background-color: #f0a5af;
+  line-height: 30px;
+}
